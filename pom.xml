@@ -54,10 +54,7 @@
         <resources>
             <resource>
                 <targetPath>META-INF/configuration</targetPath>
-                <directory>${project.basedir}/src/main/resources</directory>
-                <includes>
-                    <include>configuration/*.yaml</include>
-                </includes>
+                <directory>${project.basedir}/src/main/resources/configuration</directory>
             </resource>
         </resources>
 
